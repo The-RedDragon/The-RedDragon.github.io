@@ -1,0 +1,96 @@
+@media (max-width: 1920px) {
+   
+    #wrap {
+        width: 100%;
+    }
+    .bird-vdo {
+        position: absolute;
+        top: -19%;
+        left: -24%;
+    }
+    .bird-vdo img {
+        width: 90%;
+    }
+    .contentbottom img {
+        width: 100%;
+    }
+    .bird-bottom {
+       top: -52%;
+       right: 3%;
+       width: 27%;
+    }
+    .contentbottom .bird-bottom img {
+        width: 100%;
+    }
+    
+
+}
+@media (max-width: 1280px) {
+    .bird-vdo {
+        display: none;
+    }
+ }
+
+@media (max-width: 975px) {
+    body {
+        background: none;
+    }
+    #wrap {
+        background-size: contain;
+        padding-top: 43%;
+        background-color: rgba(143,2,3,1);
+    }
+    h1{
+        font-size: 14vw;
+    }
+     h2{
+        font-size: 7vw;
+    }
+
+    h3{
+        font-size: 5vw;
+    }
+    p{
+        font-size: 4vw;
+    }
+    #vdo-top {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 7%;
+    }
+    video {
+        width: 100%    !important;
+        height: auto   !important;
+    }
+    
+    .detail{
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+    }
+    .content img {
+        width: 100%;
+    }
+    .detailbottom p {
+        font-size: 5vw;
+    }
+    .detailbottom p strong {
+        font-size: 7vw;
+    }
+    .bird-bottom {
+        width: 20%;
+    }
+
+}
+@media (max-width: 450px) {
+    p{
+        font-size: 4vw;
+    }
+}

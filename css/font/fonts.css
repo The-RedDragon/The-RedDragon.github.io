@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'DIN-Condensed';
+    src: url('DINCondensed-Bold.eot');
+    src: url('DINCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DINCondensed-Bold.woff2') format('woff2'),
+        url('DINCondensed-Bold.woff') format('woff'),
+        url('DINCondensed-Bold.ttf') format('truetype'),
+        url('DINCondensed-Bold.svg#DINCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PSL-Display-Pro';
+    src: url('PSLDisplayPro.eot');
+    src: url('PSLDisplayPro.eot?#iefix') format('embedded-opentype'),
+        url('PSLDisplayPro.woff2') format('woff2'),
+        url('PSLDisplayPro.woff') format('woff'),
+        url('PSLDisplayPro.ttf') format('truetype'),
+        url('PSLDisplayPro.svg#PSLDisplayPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

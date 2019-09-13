@@ -1,0 +1,181 @@
+/*****For set height 100%*****/
+html {
+    width:100%;
+    height: 100%;
+    display: table;
+}
+
+body {
+    width:100%;
+    display:table-cell;
+
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+body {
+	background: transparent url("../images/red-dragon-bg-all.jpg")  top center repeat-x;
+	padding: 0;
+	margin: 0;
+
+
+}
+p,li,span {
+	line-height: 1.3;
+	margin: 0;
+	margin-bottom: 15px;
+  color: #999;
+  font-size: 45px;
+
+}
+strong {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 150px;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-family: 'DIN-Condensed';
+
+}
+
+
+
+h2 {
+	font-size: 53px;
+	text-align: center;
+	color: #fff;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+  margin-bottom: 0px;
+  font-family: 'PSL-Display-Pro';
+}
+h3 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0px;
+  font-family: 'PSL-Display-Pro';
+  text-transform: uppercase;
+}
+p {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: 'PSL-Display-Pro';
+   text-transform: uppercase;
+}
+
+
+
+
+
+.showdesktop {
+
+}
+
+.showmobile {
+  display: none;
+}
+
+
+
+#wrap {
+	width: 1920px;
+  height: 100%;
+	position: relative;
+	padding: 0;
+  padding-top: 830px;
+  margin: 0 auto;
+  background-color: #8b0304;
+  background: transparent url("../images/red-dragon-bg-content-all.jpg")  top center no-repeat;
+}
+.content {
+  width: 970px;
+  margin: 90px auto;
+  background-color: rgba(143,2,3,0.5);
+}
+.content h3 {
+  padding-top: 70px;
+  font-size: 54px;
+  margin-bottom: 15px;
+  font-family: 'DIN-Condensed';
+}
+.content p {
+  margin: 0;
+}
+.content:first-child{
+  padding-top: 0;
+}
+.content:last-child {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.detail {
+  width: 970px;
+  margin: 0 auto;
+  position: relative;
+}
+.detailbottom {
+  width: 970px;
+  margin: 0 auto;
+  position: relative;
+}
+.detailbottom p {
+  font-size: 48px;
+  font-family: 'DIN-Condensed';
+  line-height: 1;
+}
+.detailbottom p strong{
+  font-size: 80px;
+  line-height: 1;
+}
+
+.contentbottom {
+  position: relative;
+}
+.contentbottom p{
+  margin: 0;
+}
+
+#vdo-top {
+  width: 970px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  position: relative;
+  z-index: 100;
+}
+.text-logo {
+  padding-top: 5px;
+}
+.bird-vdo {
+  position: absolute;
+  top: -270px;
+  left: -270px;
+}
+
+.bird-bottom {
+  position: absolute;
+  top: -425px;
+  right: 135px;
+}
